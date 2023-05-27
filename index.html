@@ -1,0 +1,52 @@
+<?php
+
+include("conexao/conn.php");
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+   
+
+    <link rel="shortcut icon" href="./nuvem.png" type="image/x-icon">
+  
+    <title>Akatsuki - Login</title>
+</head>
+<body>
+    <section class="fundo">
+        <div class="titulo">
+        <h1>AKATSUKI</h1>
+        <p>Akatsuki era uma organizaaoo fictícia <br>do manga
+             e anime Naruto que buscava <br>a paz,
+             mas que com o tempo acabou se <br>tornando uma
+              organizacao de mercenarios.
+        </p>
+    </div>
+
+    <form class="for" action="Input">
+        <input class="text" type="text" placeholder="Shinobi  (忍び)">
+        <input class="text" type="password" placeholder="Senha">
+
+        <a class="botao" href="home.php">
+            <input class="but" type="button" value="Entrar">
+        </a>
+        <br><br>
+
+        <a id="senha" href="recupera.php">Esqueceu a Senha?</a>
+
+        <a class="contp" href="conta.php">
+            <input class="but" type="button" value="Criar Nova Conta">
+        </a>    
+
+        <p class="p">Venha ser um membro da Akatsuki e pegar todos os Jinchuurikis</p>
+
+    </form>
+
+    </section>
+  
+</body>
+</html>
+
